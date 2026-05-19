@@ -1,6 +1,6 @@
 # Warning ⚠
 
-The githubPagesToRepo does not work currently.
+The githubPagesToRepo function does not work currently.
 
 ---
 
