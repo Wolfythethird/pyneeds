@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyneeds"
+version = "0.1.0"
+authors = [
+    { name = "Wolfythethird" }
+]
+description = "A comprehensive, high-utility developer workspace toolkit and game development launcher bundle."
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["utilities", "game-engine", "validation", "tui", "math", "helpers", "ursina"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Games/Entertainment"
+]
+
+# This automatically tells pip to download your 6 essential ecosystem extensions!
+dependencies = [
+    "textual>=0.50.0",
+    "colorama>=0.4.6",
+    "art>=6.1",
+    "playsound3>=3.0.0",
+    "pydantic>=2.0.0",
+    "ursina>=3.6.0"
+]
+
+[tool.setuptools]
+packages = ["pyneeds"]
+
+[project.urls]
+"Homepage" = "https://github.com"
+"Bug Tracker" = "https://github.com/issues"
