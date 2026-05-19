@@ -145,4 +145,4 @@ pyneeds/
 
 ## 📝 License
 
-Distributed under the MIT License. See `LICENSE` for more details.
+Distributed under the CC BY-SA License. See `LICENSE` for more details.
