@@ -39,9 +39,9 @@ pip install pyneeds
 * ursina
 ### Install:
 ```bash
-cd path/to/python/instalation/
-cd Lib/site-packages/
 git clone https://github.com/Wolfythethird/pyneeds.git
+cd pyneeds/dist
+pip install pyneeds-0.1.0-py3-none-any.whl
 ```
 
 ---
@@ -150,17 +150,6 @@ class Profile(BaseModel):
     alias: str = Field(min_length=3, max_length=20)
 
 valid_user = Profile(user_id=101, alias="NinjaCoder")
-```
-
----
-
-## 📂 Project Architecture
-
-```text
-pyneeds/
-├── __init__.py          # Automated utility export and dependency map file
-├── utils.py             # Your expanding library of 40+ custom utility functions
-└── pyproject.toml       # Environment configuration and automated bundle list
 ```
 
 ---
