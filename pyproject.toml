@@ -12,15 +12,15 @@ description = "A comprehensive, high-utility developer workspace toolkit and gam
 readme = "README.md"
 requires-python = ">=3.10"
 keywords = ["utilities", "game-engine", "validation", "tui", "math", "helpers", "ursina"]
+license = {text = "CC-BY-SA-4.0"}
 classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Topic :: Software Development :: Libraries :: Python Modules",
-    "Topic :: Games/Entertainment"
+    "Topic :: Software Development"
 ]
 
 # This automatically tells pip to download your 6 essential ecosystem extensions!
@@ -37,5 +37,5 @@ dependencies = [
 packages = ["pyneeds"]
 
 [project.urls]
-"Homepage" = "https://github.com/Wolfythethird/pyneeds"
-"Bug Tracker" = "https://github.com/Wolfythethird/pyneeds/issues"
+"homepage" = "https://github.com/wolfythethird/pyneeds"
+"bug tracker" = "https://github.com/wolfythethird/pyneeds/issues"
