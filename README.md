@@ -21,11 +21,27 @@ A high-utility, all-in-one developer workspace toolkit for Python. `pyneeds` bun
 ---
 
 ## 💾 Installation
-### Does not work
+### Does not work:
 Install the entire package workspace along with its external dependencies via a single execution string:
 
 ```bash
 pip install pyneeds
+```
+
+### Does work:
+#### Dependencies:
+* Python
+* colorama
+* art
+* playsound3
+* pydantic
+* textual
+* ursina
+### Install:
+```bash
+cd path/to/python/instalation/
+cd Lib/site-packages/
+git clone https://github.com/Wolfythethird/pyneeds.git
 ```
 
 ---
