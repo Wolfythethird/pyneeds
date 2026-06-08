@@ -21,7 +21,7 @@ A high-utility, all-in-one developer workspace toolkit for Python. `pyneeds` bun
 ---
 
 ## 💾 Installation
-
+### Does not work
 Install the entire package workspace along with its external dependencies via a single execution string:
 
 ```bash
